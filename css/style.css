@@ -63,6 +63,22 @@ header ul li a{
 
 
 /* +++ MAIN +++ */
+.box-shoes{
+    width: 100vw;
+    height: 100vh;
+}
+
+#shoes-1{
+    background-color: red;
+}
+
+#shoes-2{
+    background-color: green;
+}
+
+#shoes-3{
+    background-color: yellow;
+}
 
 /* --- /MAIN --- */
 
