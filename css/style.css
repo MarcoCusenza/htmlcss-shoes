@@ -24,16 +24,16 @@
     /* proprietà */
     height: 100px;
     width: 100vw;
-    /* posizione */
     line-height: 100px;
+
+    /* posizione */
     position: fixed;
     z-index: 1;
 }
 
 .box-pulsanti{
     /* posizione */
-    position: absolute;
-    right: 20px;
+    margin-right: 40px;
 }
 
 header ul li{
@@ -44,13 +44,13 @@ header ul li{
 
 header ul li a{
     /* proprietà */
+    display: inline-block; /*per poter modificare le proprietà di <a>*/
+    height: 50px;
+    width: 50px;
     color: black;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    display: inline-block; /*per poter modificare le proprietà di <a>*/
-    height: 50px;
-    width: 50px;
     background-color: lightgray;
     border-radius: 50%;
 
@@ -65,13 +65,20 @@ header ul li a{
 
 /* +++ MAIN +++ */
 .box-page{
+    /* proprietà */
     width: 100vw;
     height: 100vh;
+
+    /* posizione */
     position: relative;
 }
 
 .box-card{
+    /* proprietà */
     width: 50%;
+    text-align: center;
+
+    /* posizione */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -90,23 +97,29 @@ header ul li a{
     background-color: yellow;
 }
 
-.box-card .testo{
+.testo{
+    /* proprietà */
+    width: 80%;
     text-transform: uppercase;
     color: yellow;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     text-align: center;
+
+    /* posizione */
+    margin: auto;
 }
 
 #shoes-3 .testo{
     color: green;
 }
-
 /* --- /MAIN --- */
 
 
 
 /* +++ DEBUG +++ */
+
+/* 
 .debug .box-nav{
     background-color: pink;
 }
@@ -119,5 +132,17 @@ header ul li a{
     background-color: rgba(144, 102, 102, 0.514);
 }
 
+.debug .box-card .box-img{
+    border: 2px solid black;
+}
+
+.debug .box-card img{
+    border: 2px solid pink;
+}
+
+.debug .box-card .testo{
+    border: 2px solid violet;
+} 
+*/
 
 /* --- /DEBUG --- */
