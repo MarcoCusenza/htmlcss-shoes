@@ -6,7 +6,7 @@
     font-family: 'Rubik', sans-serif;
 }
 
-/* .clearfix::after{
+.clearfix::after{
     clear:both;
     content: "";
     display: table;
@@ -14,32 +14,35 @@
 
 .right{
     float: right;
-} */
+}
 /* --- /COMMONS --- */
 
 
 
 /* +++ HEADER +++ */
 .box-nav{
+    /* proprietà */
     height: 100px;
-    line-height: 100px;
     width: 100vw;
+    /* posizione */
+    line-height: 100px;
     position: fixed;
 }
 
-.box-header{
-    width: 15%;
+.box-pulsanti{
+    /* posizione */
     position: absolute;
-    right: 0;
+    right: 20px;
 }
 
 header ul li{
+    /* posizione */
     display: inline-block;
     margin-left: 20px;
-    position: relative;
 }
 
 header ul li a{
+    /* proprietà */
     color: black;
     font-size: 15px;
     font-weight: bold;
@@ -47,15 +50,18 @@ header ul li a{
 }
 
 header ul li a div{
+    /* proprietà */
     height: 50px;
     width: 50px;
+    background-color: lightgray;
+    border-radius: 50%;
+
+    /* posizione */
     line-height: 50px;
     text-align: center;
     vertical-align: middle;
-    background-color: lightgray;
-    border-radius: 50%;
 }
-/* --- HEADER --- */
+/* --- /HEADER --- */
 
 
 
@@ -68,6 +74,10 @@ header ul li a div{
 /* +++ DEBUG +++ */
 .debug .box-nav{
     background-color: pink;
+}
+
+.debug .box-pulsanti{
+    background-color: lightskyblue;
 }
 
 
