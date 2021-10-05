@@ -27,6 +27,7 @@
     /* posizione */
     line-height: 100px;
     position: fixed;
+    z-index: 1;
 }
 
 .box-pulsanti{
@@ -63,9 +64,18 @@ header ul li a{
 
 
 /* +++ MAIN +++ */
-.box-shoes{
+.box-page{
     width: 100vw;
     height: 100vh;
+    position: relative;
+}
+
+.box-card{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #shoes-1{
@@ -80,6 +90,18 @@ header ul li a{
     background-color: yellow;
 }
 
+.box-card .testo{
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#shoes-3 .testo{
+    color: green;
+}
+
 /* --- /MAIN --- */
 
 
@@ -91,6 +113,10 @@ header ul li a{
 
 .debug .box-pulsanti{
     background-color: lightskyblue;
+}
+
+.debug .box-card{
+    background-color: rgba(144, 102, 102, 0.514);
 }
 
 
