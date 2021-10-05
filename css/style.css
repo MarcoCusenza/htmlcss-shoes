@@ -47,10 +47,7 @@ header ul li a{
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-}
-
-header ul li a div{
-    /* proprietà */
+    display: inline-block; /*per poter modificare le proprietà di <a>*/
     height: 50px;
     width: 50px;
     background-color: lightgray;
