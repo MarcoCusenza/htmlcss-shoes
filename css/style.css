@@ -15,6 +15,10 @@
 .right{
     float: right;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* --- /COMMONS --- */
 
 
@@ -99,7 +103,7 @@ header ul li a{
     background-color: yellow;
 }
 
-.testo{
+.box-card h2{
     /* proprietà */
     width: 80%;
     text-transform: uppercase;
@@ -112,7 +116,7 @@ header ul li a{
     margin: auto;
 }
 
-#shoes-3 .testo{
+#shoes-3 h2{
     color: green;
 }
 /* --- /MAIN --- */
