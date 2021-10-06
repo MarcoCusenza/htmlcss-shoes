@@ -23,7 +23,7 @@
 .box-nav{
     /* proprietà */
     height: 100px;
-    width: 100vw;
+    width: 100%;
     line-height: 100px;
 
     /* posizione */
@@ -53,6 +53,8 @@ header ul li a{
     text-decoration: none;
     background-color: lightgray;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px -3px, rgba(0, 0, 0, 0.3) 0px 4px 6px -2px;
+    
 
     /* posizione */
     line-height: 50px;
